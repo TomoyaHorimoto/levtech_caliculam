@@ -14,6 +14,5 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/posts', 'PostsController@index');
-// Route::get('/', 'App\Http\Controllers\PostsController@index');
+Route::get('/', 'PostsController@index');
 
